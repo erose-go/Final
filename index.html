@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ onclick="myFunction(this);"<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -58,42 +58,49 @@
             <span class="dot" onclick="currentSlide(2)"></span>
             <span class="dot" onclick="currentSlide(3)"></span>
         </div>
+
+        <div class="container">
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+            <img id="expandedImg" style="width:100%">
+            <div id="imgtext"></div>
+        </div>
+
         <div class="grid-4x3">
             <div class="grid-item">
-                <img src="media/movement-1.jpg" alt="Upward Dog">
+                <img src="media/movement-1.jpg" alt="Upward Dog" onclick="myFunction(this)"> 
             </div>
             <div class="grid-item">
-                <img src="media/movement-2.jpg" alt="Spine Twist">
+                <img src="media/movement-2.jpg" alt="Spine Twist" onclick="myFunction(this)"> 
             </div>
             <div class="grid-item">
-                <img src="media/movement-3.jpg" alt="Hip Opener">
+                <img src="media/movement-3.jpg" alt="Hip Opener" onclick="myFunction(this)"> 
             </div>
             <div class="grid-item">
-                <img src="media/food-1.jpg" alt="Protein Dense">
+                <img src="media/food-1.jpg" alt="Protein Dense" onclick="myFunction(this)"> 
             </div>
             <div class="grid-item">
-                <img src="media/food-2.jpg" alt="Fiber Dense">
+                <img src="media/food-2.jpg" alt="Fiber Dense" onclick="myFunction(this)"> 
             </div>
             <div class="grid-item">
-                <img src="media/planner-1.jpg" alt="Planner">
+                <img src="media/planner-1.jpg" alt="Planner" onclick="myFunction(this)"> 
             </div>
             <div class="grid-item">
-                <img src="media/planner-2.jpg" alt="Calendar">
+                <img src="media/planner-2.jpg" alt="Calendar" onclick="myFunction(this)"> 
             </div>
             <div class="grid-item">
-                <img src="media/planner-3.jpg" alt="To-Do's">
+                <img src="media/planner-3.jpg" alt="To-Do's" onclick="myFunction(this)"> 
             </div>
             <div class="grid-item">
-                <img src="media/planner-4.jpg" alt="Journaling">
+                <img src="media/planner-4.jpg" alt="Journaling" onclick="myFunction(this)"> 
             </div>
             <div class="grid-item">
-                <img src="media/water-1.jpg" alt="Infused Water">
+                <img src="media/water-1.jpg" alt="Infused Water" onclick="myFunction(this)"> 
             </div>
             <div class="grid-item">
-                <img src="media/water-2.jpg" alt="No Alchohol">
+                <img src="media/water-2.jpg" alt="No Alchohol" onclick="myFunction(this)"> 
             </div>
             <div class="grid-item">
-                <img src="media/water-3.jpg" alt="Morning Water">
+                <img src="media/water-3.jpg" alt="Morning Water" onclick="myFunction(this)"> 
             </div>
           </div>
           <script src="js/myjs.js"></script>
